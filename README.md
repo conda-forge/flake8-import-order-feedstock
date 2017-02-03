@@ -20,6 +20,18 @@ seemingly random changes and configuration changes as we figure out
 how it should work.
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flake8-import-order-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flake8-import-order-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/flake8-import-order-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flake8-import-order-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flake8-import-order-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flake8-import-order-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flake8-import-order/badges/version.svg)](https://anaconda.org/conda-forge/flake8-import-order)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flake8-import-order/badges/downloads.svg)](https://anaconda.org/conda-forge/flake8-import-order)
+
 Installing flake8-import-order
 ==============================
 
@@ -75,18 +87,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flake8-import-order-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flake8-import-order-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/flake8-import-order-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flake8-import-order-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flake8-import-order-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flake8-import-order-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flake8-import-order/badges/version.svg)](https://anaconda.org/conda-forge/flake8-import-order)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flake8-import-order/badges/downloads.svg)](https://anaconda.org/conda-forge/flake8-import-order)
 
 
 Updating flake8-import-order-feedstock

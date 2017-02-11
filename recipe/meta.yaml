@@ -1,6 +1,6 @@
 {% set name = "flake8-import-order" %}
-{% set version = "0.11" %}
-{% set sha256 = "b56ca2793e27bd99c46f59a0a51f4847ddc1fed22697a505add882a9db2b8613" %}
+{% set version = "0.12" %}
+{% set sha256 = "2ff36d2fe44ffacb2738fab3e33a98c71b07cc6e995af9a38b16d262da928856" %}
 
 package:
   name: {{ name|lower }}

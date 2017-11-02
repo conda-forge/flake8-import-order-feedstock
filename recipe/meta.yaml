@@ -1,6 +1,6 @@
 {% set name = "flake8-import-order" %}
-{% set version = "0.13" %}
-{% set sha256 = "9107afe312ed9084a52505de0b90a85a3403f9f82c4c69db97df70666851b85a" %}
+{% set version = "0.14.3" %}
+{% set sha256 = "a025f6d691e6ca3a749ebcb9dea8ee3aa341407d767dda1c263060f80f6b377e" %}
 
 package:
   name: {{ name|lower }}
@@ -22,6 +22,7 @@ requirements:
     - setuptools
   run:
     - python
+    - asttokens
     - pycodestyle
     - flake8
 

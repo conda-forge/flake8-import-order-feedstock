@@ -1,6 +1,6 @@
 {% set name = "flake8-import-order" %}
-{% set version = "0.15" %}
-{% set sha256 = "fd8608a29df93589ecbe5281981222929261c915068f2aedfb51f243f05f5466" %}
+{% set version = "0.16" %}
+{% set sha256 = "9699e8cf71a0e082a08bc2b08782575abf08292220f1f5ddb4a8bf25674135a7" %}
 
 package:
   name: {{ name|lower }}
@@ -22,13 +22,14 @@ requirements:
     - setuptools
   run:
     - python
-    - asttokens
     - pycodestyle
     - flake8
 
 test:
   commands:
-    - "flake8 --version | grep import-order:"
+    - flake8 --version
+  imports:
+    - flake8_import_order
 
 about:
   home: https://github.com/PyCQA/flake8-import-order

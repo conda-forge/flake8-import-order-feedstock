@@ -23,12 +23,15 @@ how it should work.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/flake8-import-order-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flake8-import-order-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/flake8-import-order-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/flake8-import-order-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flake8-import-order/badges/version.svg)](https://anaconda.org/conda-forge/flake8-import-order)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flake8-import-order/badges/downloads.svg)](https://anaconda.org/conda-forge/flake8-import-order)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-flake8--import--order-green.svg)](https://anaconda.org/conda-forge/flake8-import-order) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/flake8-import-order.svg)](https://anaconda.org/conda-forge/flake8-import-order) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/flake8-import-order.svg)](https://anaconda.org/conda-forge/flake8-import-order) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/flake8-import-order.svg)](https://anaconda.org/conda-forge/flake8-import-order) |
 
 Installing flake8-import-order
 ==============================

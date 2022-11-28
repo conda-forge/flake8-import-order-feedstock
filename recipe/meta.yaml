@@ -1,6 +1,5 @@
 {% set name = "flake8-import-order" %}
 {% set version = "0.18.2" %}
-{% set sha256 = "e23941f892da3e0c09d711babbb0c73bc735242e9b216b726616758a920d900e" %}
 
 package:
   name: {{ name|lower }}
@@ -9,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: e23941f892da3e0c09d711babbb0c73bc735242e9b216b726616758a920d900e
 
 build:
   noarch: python
@@ -18,12 +17,13 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
   run:
-    - python
+    - python >=3.6
     - pycodestyle
     - flake8
+    - setuptools
 
 test:
   commands:
@@ -33,7 +33,7 @@ test:
 
 about:
   home: https://github.com/PyCQA/flake8-import-order
-  license: LGPL-3.0
+  license: LGPL-3.0-only
   license_family: LGPL
   license_file: COPYING
   summary: A flake8 and Pylama plugin that checks the ordering of your imports.

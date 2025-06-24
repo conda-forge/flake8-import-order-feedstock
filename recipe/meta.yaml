@@ -1,5 +1,5 @@
 {% set name = "flake8-import-order" %}
-{% set version = "0.19.0" %}
+{% set version = "0.19.2" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 4209620e63d3c6f4241ab7b0ebd4cdd29299edb96f145ebe95d3911910037fa3
+  sha256: 133b3c55497631e4235074fc98a95078bba817832379f22a31f0ad2455bcb0b2
 
 build:
   noarch: python
